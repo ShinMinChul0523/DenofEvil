@@ -1,0 +1,5 @@
+rock-0-0
+rock2-0-0
+tree-1-1
+grass-1-1
+lamp_body-0-0

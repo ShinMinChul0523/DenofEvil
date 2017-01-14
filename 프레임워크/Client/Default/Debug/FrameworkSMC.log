@@ -1,0 +1,15 @@
+﻿  StaticCamera.cpp
+  DynamicCamera.cpp
+  코드를 생성하고 있습니다...
+directxtex.lib(BC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(BC.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(BC4BC5.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(BC4BC5.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(BC6HBC7.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(BC6HBC7.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(DirectXTexCompress.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(DirectXTexCompress.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(DirectXTexConvert.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(DirectXTexConvert.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(DirectXTexD3D11.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(DirectXTexD3D11.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(DirectXTexDDS.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(DirectXTexDDS.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(DirectXTexImage.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(DirectXTexImage.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(DirectXTexMipMaps.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(DirectXTexMipMaps.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(DirectXTexTGA.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(DirectXTexTGA.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+directxtex.lib(DirectXTexUtil.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'directxtex.lib(DirectXTexUtil.obj)' 또는 'C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\bin\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  FrameworkSMC.vcxproj -> C:\Users\rex_p\Desktop\카메라이동방향전환x\Client\Default\../bin/FrameworkSMC.exe

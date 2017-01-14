@@ -1,0 +1,84 @@
+﻿  stdafx.cpp
+  FrameworkSMC.cpp
+c:\users\rex_p\desktop\frameworksmc\client\default\frameworksmc.cpp(6): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Transform.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Timer.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\timer.cpp(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  TimeMgr.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\timemgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Texture.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  TerrainTex.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  StaticMesh.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  StaticCamera.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\gameobject.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  ShaderMgr.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\shadermgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Shader.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\shader.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Scene.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\layer.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Resources.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  ResourceMgr.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\resourcemgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  RenderTargetMgr.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\rendertargetmgr.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  RenderTarget.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\rendertarget.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Renderer.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\renderer.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  RcTex.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  NavMesh.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\navmesh.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  NavCell.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\navcell.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  MeshMgr.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\meshmgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Mesh.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Management.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\renderer.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Layer.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\layer.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Input.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\input.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  GraphicDev.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\graphicdev.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  GameObject.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\gameobject.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Frustum.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\frustum.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  FrameMgr.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\framemgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Frame.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\frame.cpp(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  FontMgr.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\fontmgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Font.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\font.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  DynamicMesh.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  DynamicCamera.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\gameobject.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  CubeTex.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Component.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Collision.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\collision.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  CameraMgr.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\cameramgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Camera.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\gameobject.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  AnimationInfo.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\component.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  Animation.cpp
+c:\users\rex_p\desktop\frameworksmc\client\code\animation.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Define.h': No such file or directory
+  코드를 생성하고 있습니다...
