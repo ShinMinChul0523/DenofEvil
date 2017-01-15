@@ -72,7 +72,28 @@ HRESULT CStageScene::Ready_GameLogic(void)
 	if (NULL == pGameObject) return E_FAIL;
 	pLayer->Ready_Object(L"Skybox", pGameObject);
 
-	
+	// Default Object
+	HANDLE hFile = NULL;
+
+	DWORD dwByte;
+	OBJDATA tObjData;
+
+	hFile = CreateFile(L"../bin/Data/ObjTest2.dat", GENERIC_READ, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+
+	while (TRUE)
+	{
+		ReadFile(hFile, &tObjData, sizeof(OBJDATA), &dwByte, NULL);
+
+		if (dwByte == 0)
+			break;
+
+		pGameObject = CDefaultObj::Create(m_pContext, tObjData);
+		if (NULL == pGameObject) return E_FAIL;
+		pLayer->Ready_Object(L"DefaultObj", pGameObject);
+	}
+
+	CloseHandle(hFile);
+
 
 	// Player
 	pGameObject = CPlayer::Create(m_pContext);

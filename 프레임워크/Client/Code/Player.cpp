@@ -47,7 +47,7 @@ HRESULT CPlayer::Initialize(void)
 
 	FLOAT fScale = (1.f / Get_MeshMax(m_uiObjNum)->y) * m_fHeight;
 	m_pTransform->m_vScale = XMFLOAT3(fScale, fScale, fScale);
-	m_pTransform->m_vPos = XMFLOAT3(126.7f, 0.f, 345.f);
+	m_pTransform->m_vPos = XMFLOAT3(0.0f, 0.f, 0.f);
 	m_pTransform->m_vDir = XMFLOAT3(0.f, 0.f, -1.f);
 
 	return S_OK;

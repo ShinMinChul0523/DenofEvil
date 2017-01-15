@@ -50,5 +50,15 @@ typedef struct tagMeshData
 	BOOL bBillboard;
 }MESHDATA;
 
+typedef struct tagToolObjInfo
+{
+	XMMATRIX					m_matWorld;
+	XMFLOAT3					m_vPosition;
+	XMFLOAT3					m_vScale;
+	XMFLOAT3					m_vDir;
+	FLOAT					m_fAngle[3];
+	TCHAR					m_strName[256];
+
+}TOOLOBJECT;
 
 #endif // Struct_h__
