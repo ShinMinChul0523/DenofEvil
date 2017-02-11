@@ -135,7 +135,7 @@ void CMainApp::Ready_DynamicMeshFromFile(ID3D11Device* pGraphicDev, ID3D11Device
 void CMainApp::Ready_StaticMeshFromFile(ID3D11Device* pGraphicDev, ID3D11DeviceContext* pContext)
 {
 	// Static Mesh
-	/*wstring wstrPath = L"../bin/Data/List_StaticMesh.txt";
+	wstring wstrPath = L"../bin/Data/List_StaticMesh.txt";
 
 	wifstream inFile;
 	inFile.open(wstrPath.c_str(), ios::in);
@@ -174,17 +174,9 @@ void CMainApp::Ready_StaticMeshFromFile(ID3D11Device* pGraphicDev, ID3D11DeviceC
 		Ready_MeshMgr(pMeshData);
 	}
 
-	inFile.close();*/
+	inFile.close();
 
-	TCHAR pFileName[MAX_NAME];
-	TCHAR pFileAlpha[2];
-	TCHAR pFileBillboard[2];
-
-	WORD wAlpha, wBillboard;
-	MESHDATA* pMeshData = NULL;
-	wifstream inFile;
-	// MapTool Mesh
-	wstring wstrPath = L"../bin/Data/List_MapToolMesh.txt";
+	 wstrPath = L"../bin/Data/List_MapToolMesh.txt";
 
 	inFile.open(wstrPath.c_str(), ios::in);
 

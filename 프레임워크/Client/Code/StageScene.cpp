@@ -63,9 +63,9 @@ HRESULT CStageScene::Ready_GameLogic(void)
 	CGameObject* pGameObject = NULL;
 
 	// Terrain
-	pGameObject = CTerrain::Create(m_pContext);
-	if (NULL == pGameObject) return E_FAIL;
-	pLayer->Ready_Object(L"Terrain", pGameObject);
+	//pGameObject = CTerrain::Create(m_pContext);
+	//if (NULL == pGameObject) return E_FAIL;
+	//pLayer->Ready_Object(L"Terrain", pGameObject);
 
 	// Skybox
 	pGameObject = CSkybox::Create(m_pContext);
@@ -147,7 +147,7 @@ void CStageScene::Ready_NavCell(void)
 	XMFLOAT3 vPoint[3];
 	BOOL bOnlyMon = FALSE;
 
-	hFile = CreateFile(L"../bin/Data/Data_Nav.dat", GENERIC_READ, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+	hFile = CreateFile(L"../bin/Data/1021Navi.dat", GENERIC_READ, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
 
 	while (TRUE)
 	{

@@ -31,7 +31,7 @@ HRESULT CDefaultObj::Initialize(const OBJDATA& tObjData)
 	if (FAILED(Ready_Component(tObjData)))
 		return E_FAIL;
 
-	m_uiObjNum = tObjData.uiImgNum + MESHNUM_END;
+	m_uiObjNum = /*tObjData.uiImgNum*/1 + MESHNUM_END;
 
 	m_pTransform->m_vScale = XMFLOAT3(tObjData.vScale);
 	m_pTransform->m_vAngle = XMFLOAT3(tObjData.vAngle);

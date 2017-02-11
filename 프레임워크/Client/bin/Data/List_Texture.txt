@@ -1,5 +1,10 @@
 Terrain-jpg-5
 Skybox-png-0
 map_diff-png-0
-DiffuseMap-tga-0
+tree_body-png-0
+leaf-tga-0
 Color-png-3
+Building_Texture-tga-0
+T_SimpleOffice-tga-0
+MachineGun01albedo-tga-0
+Soldier1albedo-tga-0
