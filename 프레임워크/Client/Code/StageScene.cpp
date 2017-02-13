@@ -100,7 +100,7 @@ HRESULT CStageScene::Ready_GameLogic(void)
 	if (NULL == pGameObject) return E_FAIL;
 	pLayer->Ready_Object(L"Player", pGameObject);
 
-	
+
 	m_mapLayer.insert(MAPLAYER::value_type(L"Layer_GameLogic", pLayer));
 
 	return S_OK;
@@ -116,8 +116,8 @@ HRESULT CStageScene::Ready_Environment(void)
 	const CComponent* pTransform = iterLayer->second->Get_Component(L"Player", L"Com_Transform");
 
 	Ready_DynamicCamera(m_pContext, CCameraMgr::CAMERA_DYNAMIC, 0.1f, 1000.f, XMFLOAT3(0.f, 5.f, -10.f), XMFLOAT3(0.f, 0.f, 0.f));
-	Ready_StaticCamera(m_pContext, CCameraMgr::CAMERA_WALK, (CTransform*)pTransform, 5.f,5.f, 0.1f, 1000.f, XMFLOAT3(0.f, 5.f, -10.f), XMFLOAT3(0.f, 0.f, 0.f));	
-	
+	Ready_StaticCamera(m_pContext, CCameraMgr::CAMERA_WALK, (CTransform*)pTransform, 5.f, 5.f, 0.1f, 1000.f, XMFLOAT3(0.f, 5.f, -10.f), XMFLOAT3(0.f, 0.f, 0.f));
+
 	Ready_Frustum();
 
 	// RenderTarget
@@ -131,6 +131,13 @@ HRESULT CStageScene::Ready_Environment(void)
 void CStageScene::Release(void)
 {
 	CNavMesh::GetInstance()->DestroyInstance();
+	vector<D3DXVECTOR3*>::iterator viter = m_vecPoint.begin();
+	for (; viter != m_vecPoint.end(); ++viter)
+	{
+		::Safe_Delete(*viter);
+	}
+
+	m_vecPoint.clear();
 	CScene::Release();
 
 	delete this;
@@ -145,24 +152,26 @@ void CStageScene::Ready_NavCell(void)
 
 	CNavCell* pCell = NULL;
 	XMFLOAT3 vPoint[3];
+
 	BOOL bOnlyMon = FALSE;
 
 	hFile = CreateFile(L"../bin/Data/1021Navi.dat", GENERIC_READ, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+	m_vecPoint.clear();
 
 	while (TRUE)
 	{
+	
 		for (INT iIndex = 0; iIndex < 3; ++iIndex)
 		{
-			ReadFile(hFile, &vPoint[iIndex], sizeof(XMFLOAT3), &dwByte, NULL);
+			D3DXVECTOR3* VtxPoint = new D3DXVECTOR3;
+			ReadFile(hFile, VtxPoint, sizeof(D3DXVECTOR3), &dwByte, NULL);
 
 			if (dwByte == 0)
 				break;
+			vPoint[iIndex].x = VtxPoint->x;
+			vPoint[iIndex].y = VtxPoint->y;
+			vPoint[iIndex].z = VtxPoint->z;
 		}
-
-		if (dwByte == 0)
-			break;
-
-		ReadFile(hFile, &bOnlyMon, sizeof(BOOL), &dwByte, NULL);
 
 		if (dwByte == 0)
 			break;
@@ -170,7 +179,7 @@ void CStageScene::Ready_NavCell(void)
 		CNavMesh::GetInstance()->Add_Cell(&vPoint[0], &vPoint[1], &vPoint[2]);
 	}
 
-	CloseHandle(hFile); 
+	CloseHandle(hFile);
 
 	CNavMesh::GetInstance()->Link_Cell();
 }

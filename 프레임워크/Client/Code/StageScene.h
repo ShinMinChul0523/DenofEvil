@@ -21,6 +21,7 @@ private:
 	HRESULT Ready_GameLogic(void);
 	HRESULT Ready_Environment(void);
 	void Ready_NavCell(void);
+	vector<D3DXVECTOR3*>   m_vecPoint;
 
 public:
 	virtual void Release(void);
